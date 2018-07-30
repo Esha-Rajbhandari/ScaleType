@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.esha.scaletype">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".center"></activity>
+        <activity android:name=".centerCrop"></activity>
+        <activity android:name=".fitCenter"></activity>
+        <activity android:name=".fitCenterInside"></activity>
+        <activity android:name=".fitEnd"></activity>
+        <activity android:name=".fitStart"></activity>
+        <activity android:name=".fitXY"></activity>
+        <activity android:name=".matrix"></activity>
+        <activity android:name=".trueBounds"></activity>
+        <activity android:name=".falseBounds"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+   <Button
+       android:id="@+id/btn_center"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Center"/>
+
+    <Button
+        android:id="@+id/btn_center_crop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Center Crop"/>
+
+    <Button
+        android:id="@+id/btn_fitXY"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fit XY"/>
+
+    <Button
+        android:id="@+id/btn_fit_center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fit Center"/>
+
+    <Button
+        android:id="@+id/btn_fit_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fit Start"/>
+
+    <Button
+        android:id="@+id/btn_fit_end"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fit End"/>
+
+     <Button
+     android:id="@+id/btn_center_inside"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:text="Center Inside"/>
+
+    <Button
+     android:id="@+id/btn_matrix"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:text="Matrix"/>
+
+    <Button
+        android:id="@+id/btn_true_bounds"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AdjustViewBounds:True"/>
+
+    <Button
+        android:id="@+id/btn_false_bounds"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AdjustViewBounds:False"/>
+
+</LinearLayout>
